@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+    position: fixed;
+    width: 95%;
+    background-color: rgba(240, 255, 253, 0.665);
+    
+}
+.navbar{
+    display: flex;
+    gap: 5px;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+
+}
+.navbar a:hover{
+    color: antiquewhite;
+    padding-bottom: 10px;
+    border-bottom: 2px black;
+    text-decoration: none;
+
+
+}
+.navbar a{
+    transition: all;
+
+}
+header.div{
+    height: 100px;
+    gap:270px;
+    margin:10px;
+    
+}
+header i{
+    font-size: 20px;
+}
+@media(max-width: 500px){
+    body{
+        background-color: antiquewhite;
+    }
+}
